@@ -13,11 +13,6 @@ export const HowMuchLove = () => {
 
   const upHeartHandler = () => {
     dispatch(incrementLove());
-
-    if (loveCounter >= 10) {
-      dispatch(changeHeart("#590D22"));
-    }
-
   }
 
   return (
@@ -25,8 +20,8 @@ export const HowMuchLove = () => {
       <Header />
       <div>
         <div className="grid grid-cols-1 gap-8 mt-4">
-          <div className="text-2xl font-bold flex justify-center">
-            Ei Fábio! O quanto você ama a Carol?!
+          <div className="text-2xl font-bold">
+            O quanto você ama a Carol, Fábio!?
           </div>
           <div className="flex justify-center">
             <h1 className="text-5xl">{ loveCounter }%</h1>

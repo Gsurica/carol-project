@@ -6,7 +6,7 @@ export const MomentComponent = (props) => {
     return (
       <>
         <div className="h-28 flex items-center justify-end">
-        <div className="py-4 px-10 bg-[#FFCCD5] w-48 rounded-tl-md rounded-bl-md italic font-bold tracking-wide">
+        <div className="py-4 px-10 bg-[#FFCCD5] w-48 rounded-tl-md rounded-bl-md italic font-bold tracking-wide animate-pulse">
           { props.moment }
         </div>
       </div>
