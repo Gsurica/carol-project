@@ -66,7 +66,7 @@ export const ImageButtons = () => {
       ) }
 
       <div className="flex justify-center mb-6">
-        <div className="h-80 w-80 grid grid-cols-2">
+        <div className="h-80 w-80 grid grid-cols-2 gap-8">
           <div className=" flex items-center justify-center">
             <div style={ buttonImage }>
               <button style={ images } onClick={ () => {

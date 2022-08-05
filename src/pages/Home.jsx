@@ -4,6 +4,8 @@ import { LoveLetter } from "../shared/components/defaultComponents/LoveLetter";
 import { Hero } from "../shared/components/defaultComponents/Hero";
 import { ImageButtons } from "../shared/components/defaultComponents/ImageButtons";
 
+import { Footer } from "../shared/components/globalComponents/Footer";
+
 export const Home = () => {
 
   return (
@@ -36,6 +38,9 @@ export const Home = () => {
         Você conseguiu fazer meu coração sentir muito mais do que amor, um sentimento mais forte, mais intenso, mais verdadeiro, um sentimento muito além da vida e muito além do amor." />
       </div>
       <ImageButtons />
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
