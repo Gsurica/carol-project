@@ -51,7 +51,7 @@ export const ImageButtons = () => {
   return (
     <>
 
-      <div className="flex justify-center mb-6 relative">
+      <div className="flex justify-center mb-6 -z-50">
         <div className="h-80 w-80 grid grid-cols-2 gap-8">
           <div className=" flex items-center justify-center">
             <div style={ buttonImage }>
