@@ -3,12 +3,22 @@ import { TextDefault } from "../shared/components/defaultComponents/TextDefault"
 import { LoveLetter } from "../shared/components/defaultComponents/LoveLetter";
 import { Hero } from "../shared/components/defaultComponents/Hero";
 import { ImageButtons } from "../shared/components/defaultComponents/ImageButtons";
+import { useSelector } from "react-redux";
 
 import { Footer } from "../shared/components/globalComponents/Footer";
 
 import { ThemeSwitcher } from "../shared/components/UIElements/ThemeSwitcher";
+import { Modal } from "../shared/components/UIElements/Modal";
 
 export const Home = () => {
+
+  const isYaiaDancing = useSelector(state => state.yaia.isYaiaDancing);
+
+  if (isYaiaDancing) {
+    return (  
+      <Modal />
+    )
+  }
 
   return (
     <div className="bg-[#FFF0F3] dark:bg-[#EAF8DA]">
