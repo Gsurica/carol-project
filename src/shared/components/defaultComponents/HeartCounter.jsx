@@ -2,6 +2,7 @@ import React from 'react'
 import { ProgressBar } from '../UIElements/ProgressBar';
 import {  useDispatch, useSelector } from 'react-redux';
 import { incrementLove, checkLoveHandler } from "../../../features/progressBarSlice";
+import { isHundred } from '../../../features/onehundredPointsSlice';
 
 export const HeartCounter = () => {
 
@@ -12,7 +13,8 @@ export const HeartCounter = () => {
     dispatch(incrementLove());
     if (love >= 100) { 
       dispatch(checkLoveHandler(100));
-    }
+      dispatch(isHundred(true));
+    } 
   }
 
   return (

@@ -13,6 +13,7 @@ import { cardImage } from '../css/defaultStyles';
 import { cardImageContent } from '../css/defaultStyles';
 import { MomentComponent } from '../shared/components/UIElements/MomentComponent';
 import { PresentModal } from '../shared/components/UIElements/PresentModal';
+import { HundredPointsModal } from '../shared/components/UIElements/HundredPointsModal';
 
 import { HeartCounter } from '../shared/components/defaultComponents/HeartCounter';
 import { ThemeSwitcher } from '../shared/components/UIElements/ThemeSwitcher';
@@ -20,10 +21,19 @@ import { ThemeSwitcher } from '../shared/components/UIElements/ThemeSwitcher';
 export const HowMuchLove = () => {
 
   const presentModal = useSelector(state => state.presentLink.state);
+  const hundredModal = useSelector(state => state.oneHundred.isOneHundred);
+
+  console.log(hundredModal)
 
   if (presentModal) {
     return (
       <PresentModal />
+    )
+  }
+
+  if (hundredModal) {
+    return (
+      <HundredPointsModal />
     )
   }
 
