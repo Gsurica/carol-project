@@ -11,7 +11,7 @@ export const Hero = () => {
           <p className="sm:text-3xl">
             E apenas vocês sabem como começou, caminhou e apenas vocês sabem como vai terminar. Mas, pode ter certeza que é bela e magnífica a história que vocês têm!
           </p>
-          <a href="/moments" className="bg-gradient-to-r from-[#ffafcc] to-[#FFCCD5] py-3 px-6 sm:text-3xl rounded-md w-64">Lembrem-se dos momentos</a>
+          <a href="/moments" className="bg-gradient-to-r from-[#ffafcc] to-[#FFCCD5] py-3 px-6 sm:text-3xl rounded-md w-64 dark:bg-gradient-to-r dark:from-[#EAF8DA] dark:to-[#A1EF7A] dark:text-black">Lembrem-se dos momentos</a>
         </div>
       </div>
     </div>

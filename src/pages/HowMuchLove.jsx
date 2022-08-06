@@ -15,6 +15,7 @@ import { MomentComponent } from '../shared/components/UIElements/MomentComponent
 import { PresentModal } from '../shared/components/UIElements/PresentModal';
 
 import { HeartCounter } from '../shared/components/defaultComponents/HeartCounter';
+import { ThemeSwitcher } from '../shared/components/UIElements/ThemeSwitcher';
 
 export const HowMuchLove = () => {
 
@@ -29,14 +30,15 @@ export const HowMuchLove = () => {
   return (
     <>
       <Header />
+      <ThemeSwitcher />
       <div>
         <div className="grid grid-cols-2 gap-4 mt-6 p-4 rounded-md">
-          <div className="flex items-center justify-center bg-rose-100 px-2 py-4">
+          <div className="flex items-center justify-center bg-rose-100 dark:bg-[#EAF8DA] px-2 py-4">
             <div style={ cardImage }>
               <img src={ imageFive } style={ cardImageContent } alt="card image" />
             </div>
           </div>
-          <div className="flex items-center justify-center  bg-rose-100 px-2 py-4">
+          <div className="flex items-center justify-center dark:bg-[#EAF8DA] bg-rose-100 px-2 py-4">
             <div style={ cardImage }>
               <img src={ imageSix } style={ cardImageContent } alt="card image" />
             </div>
@@ -45,8 +47,8 @@ export const HowMuchLove = () => {
         <div>
           <MomentComponent invert moment="heart moment" momentText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique lobortis augue eget fermentum. Suspendisse pharetra turpis eu ipsum feugiat elementum. Sed finibus libero id eros pulvinar, vitae pharetra leo tincidunt. Suspendisse quis ex vel libero gravida vulputate." />
         </div>
-        <div className="flex items-center justify-center px-2 py-4 bg-red-200 mt-6">
-          <h1 className="text-white font-bold tracking-tight sm:text-3xl">Ei Fábio! O quanto você ama a Carol!?</h1>
+        <div className="flex items-center justify-center px-2 py-4 bg-red-200 mt-6 dark:bg-[#BAF19C]">
+          <h1 className="text-white font-bold tracking-tight sm:text-3xl dark:text-black">Ei Fábio! O quanto você ama a Carol!?</h1>
         </div>
         <div>
           <HeartCounter />

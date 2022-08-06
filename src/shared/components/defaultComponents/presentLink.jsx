@@ -18,7 +18,7 @@ export const PresentLink = () => {
         <div className="animate-bounce">
           <span className="sm:text-4xl">🎁</span>
         </div>
-        <div className="sm:text-4xl px-4 py-6 uppercase text-rose-400 italic">
+        <div className="sm:text-4xl px-4 py-6 uppercase text-rose-400 dark:text-[#A1EF7A] italic">
           presente
         </div>
         <div className="animate-bounce">

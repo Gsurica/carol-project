@@ -21,7 +21,7 @@ export const PresentModal = () => {
             </a>
           </div>
         </div>
-        <div className="flex items-center justify-center mt-8 z-40">
+        <div className="flex items-center justify-center mt-8">
         <button className="sm:text-4xl px-4 py-8"
           onClick={ () => {
             dispatch(turnOn(false));

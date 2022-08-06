@@ -5,7 +5,7 @@ export const Modal = () => {
 
   return (
     <div className="bg-black bg-opacity-90 absolute inset-0 flex justify-center items-center flex-col px-4 text-white" onClick={ () => window.location.reload()}>
-      <div className="sm:text-4xl font-bold tracking-wide mb-4 px-4 py-4 bg-rose-200 rounded-md animate-pulse">
+      <div className="sm:text-4xl font-bold tracking-wide mb-4 px-4 py-4 bg-rose-200 dark:bg-[#EAF8DA] dark:text-black rounded-md animate-pulse">
         <h1>Uma música está rolando...</h1>
       </div>
       <div className="sm:text-3xl font-bold tracking-wide">

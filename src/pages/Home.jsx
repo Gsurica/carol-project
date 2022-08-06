@@ -6,14 +6,17 @@ import { ImageButtons } from "../shared/components/defaultComponents/ImageButton
 
 import { Footer } from "../shared/components/globalComponents/Footer";
 
+import { ThemeSwitcher } from "../shared/components/UIElements/ThemeSwitcher";
+
 export const Home = () => {
 
   return (
-    <div className="bg-[#FFF0F3]">
+    <div className="bg-[#FFF0F3] dark:bg-[#EAF8DA]">
       <Hero />
+      <ThemeSwitcher />
       <div className="px-8 py-16">
         <div className="max-w-xl mb-16 shadow-lg p-2">
-          <h2 className="text-5xl">
+          <h2 className="text-5xl dark:text-gray">
             Compartilhem da dor e da felicidade, porque a cada capítulo uma nova adversidade, mais uma luta e mais uma vitória!
           </h2>
         </div>

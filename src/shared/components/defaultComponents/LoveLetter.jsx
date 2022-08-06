@@ -5,7 +5,7 @@ export const LoveLetter = (props) => {
     <div>
       <div className="p-5">
         <h1 className="sm:text-4xl font-bold italic mb-4">Feliz aniversário, { props.specialPerson }!</h1>
-        <p className="sm:text-3xl indent-8 bg-[#FFCCD5] py-3 px-4 text-white rounded-md">
+        <p className="sm:text-3xl indent-8 bg-[#FFCCD5] py-3 px-4 text-white rounded-md dark:text-black dark:bg-[#BAF19C]">
         { props.bodyLetter }
         </p>
       </div>
