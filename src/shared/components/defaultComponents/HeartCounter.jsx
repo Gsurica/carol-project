@@ -16,7 +16,7 @@ export const HeartCounter = () => {
   }
 
   return (
-    <div className="p-4 bg-rose-100 opacity-70 grid grid-cols-1 gap-8">
+    <div className="p-4 bg-rose-100 dark:bg-[#D0F4BA] opacity-70 grid grid-cols-1 gap-8">
       <div className="items-center justify-center flex">
         <ProgressBar />
       </div>

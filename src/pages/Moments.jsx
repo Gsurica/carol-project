@@ -5,11 +5,14 @@ import { Footer } from '../shared/components/globalComponents/Footer';
 
 import { MomentComponent } from '../shared/components/UIElements/MomentComponent';
 
+import { ThemeSwitcher } from '../shared/components/UIElements/ThemeSwitcher';
+
 export const Moments = () => {
   return (
     <>
      <div className="bg-[#FFF0F3]">
       <Header />
+      <ThemeSwitcher />
       
       <MomentComponent moment="momento 1" momentText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare venenatis justo, eu egestas lectus. Phasellus vel nibh erat. Nunc tempus dolor sit amet ante fermentum, non scelerisque massa scelerisque. Cras et rutrum enim. Nullam dignissim, tortor vel porttitor tristique, purus ante vehicula tortor, vitae tempor leo ligula ut leo. Nulla et libero placerat," />
 
