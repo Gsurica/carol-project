@@ -36,15 +36,7 @@ const audioClips = {
 
 export const ImageButtons = () => {
 
-  const { lockScroll, unlockScroll } = useScrollLock();
-
-  const isYaiaDancing = useSelector(state => state.yaia.isYaiaDancing);
   const dispatch = useDispatch();
-
-  const scrollToTheTop = () => {
-    window.scrollTo(0, 0); 
-    lockScroll();
-  }
 
   const soundPlay = (src) => {
     const sound = new Howl({
@@ -52,18 +44,12 @@ export const ImageButtons = () => {
     });
 
     sound.play();
-
-    scrollToTheTop();
   }
 
   Howler.volume(0.5);
 
   return (
     <>
-
-      { isYaiaDancing && (
-        <Modal />
-      ) }
 
       <div className="flex justify-center mb-6">
         <div className="h-80 w-80 grid grid-cols-2 gap-8">
