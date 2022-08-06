@@ -36,6 +36,12 @@ const audioClips = {
 
 export const ImageButtons = () => {
 
+  const audioPlay = (audio) => {
+    const audio = new Audio(audio);
+    console.log(audio)
+    audio.play();
+  }
+
   const dispatch = useDispatch();
 
   const soundPlay = (src) => {
@@ -55,8 +61,9 @@ export const ImageButtons = () => {
         <div className="h-80 w-80 grid grid-cols-2 gap-8">
           <div className=" flex items-center justify-center">
             <div style={ buttonImage }>
+              <audio id="audio1" src={ audioOne } />
               <button style={ images } onClick={ () => {
-                  soundPlay(audioClips.firstAudio.main)
+                  audioPlay(audioOne);
                   dispatch(setYaiaDancing());
                 } }>
                 <img src={ imagebuttonOne } style={ images } />
@@ -66,7 +73,7 @@ export const ImageButtons = () => {
           <div className=" flex items-center justify-center" >
             <div style={ buttonImage }>
               <button style={ images } onClick={ () => {
-                soundPlay(audioClips.secondAudio.main);
+                audioPlay(audioTwo)
                 dispatch(setYaiaDancing());
               } }>
                 <img src={ imagebuttonTwo } style={ images } />
@@ -76,7 +83,7 @@ export const ImageButtons = () => {
           <div className=" flex items-center justify-center">
             <div style={ buttonImage }>
               <button style={ images } onClick={ () => {
-                soundPlay(audioClips.thirdAudio.main);
+                audioPlay(audioThree);
                 dispatch(setYaiaDancing());
               } }>
                 <img src={ imagebuttonThree } style={ images } />
@@ -86,7 +93,7 @@ export const ImageButtons = () => {
           <div className=" flex items-center justify-center">
             <div style={ buttonImage }>
               <button style={ images } onClick={ () => {
-                soundPlay(audioClips.fouthAudio.main);
+                audioPlay(audioFour);
                 dispatch(setYaiaDancing());
               } }>
                 <img src={ imagebuttonFour } style={ images } />
