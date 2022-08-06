@@ -36,8 +36,8 @@ const audioClips = {
 
 export const ImageButtons = () => {
 
-  const audioPlay = (audio) => {
-    const audio = new Audio(audio);
+  const audioPlay = (newAudio) => {
+    const audio = new Audio(newAudio);
     console.log(audio)
     audio.play();
   }
