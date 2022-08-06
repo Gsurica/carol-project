@@ -1,5 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
+
 const initialState = {
   loveCount: 0,
   heartColor: "currentcolor"

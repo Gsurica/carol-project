@@ -1,4 +1,4 @@
-import { RouterApp } from "./shared/routes/RouterApp"
+import { RouterApp } from "./shared/routes/RouterApp";
 
 function App() {
 
