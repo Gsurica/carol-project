@@ -17,6 +17,7 @@ import { HundredPointsModal } from '../shared/components/UIElements/HundredPoint
 
 import { HeartCounter } from '../shared/components/defaultComponents/HeartCounter';
 import { ThemeSwitcher } from '../shared/components/UIElements/ThemeSwitcher';
+import { LoveNumber } from '../shared/components/UIElements/LoveNumber';
 
 export const HowMuchLove = () => {
 
@@ -59,6 +60,9 @@ export const HowMuchLove = () => {
         </div>
         <div className="flex items-center justify-center px-2 py-4 bg-red-200 mt-6 dark:bg-[#BAF19C]">
           <h1 className="text-white font-bold tracking-tight sm:text-3xl dark:text-black">Ei Fábio! O quanto você ama a Carol!?</h1>
+        </div>
+        <div>
+          <LoveNumber />
         </div>
         <div>
           <HeartCounter />
