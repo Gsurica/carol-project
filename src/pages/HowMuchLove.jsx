@@ -55,7 +55,7 @@ export const HowMuchLove = () => {
           </div>
         </div>
         <div>
-          <MomentComponent invert moment="heart moment" momentText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tristique lobortis augue eget fermentum. Suspendisse pharetra turpis eu ipsum feugiat elementum. Sed finibus libero id eros pulvinar, vitae pharetra leo tincidunt. Suspendisse quis ex vel libero gravida vulputate." />
+          <MomentComponent invert moment="O momento mais esperado..." momentText="Nesse campo eu deixo para registrarmos o nosso casamento, a nossa vida sendo marido e mulher, nossa vida de casados, nossas viagens e futuramente papais! Espero que tenha gostado" />
         </div>
         <div className="flex items-center justify-center px-2 py-4 bg-red-200 mt-6 dark:bg-[#BAF19C]">
           <h1 className="text-white font-bold tracking-tight sm:text-3xl dark:text-black">Ei Fábio! O quanto você ama a Carol!?</h1>
