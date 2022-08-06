@@ -12,10 +12,10 @@ import { buttonImage, images } from "../../../css/defaultStyles";
 
 import { Modal } from '../UIElements/Modal';
 
-import audioOne from "../../../assets/audios/Ed Sheeran - Photograph (legendado).mp3";
-import audioTwo from "../../../assets/audios/Ed Sheeran - The A Team (Acoustic Boat Sessions).mp3";
-import audioThree from "../../../assets/audios/Gotye Somebody That I Used To Know (ft. The Basics  Monty Cotton) [Official Video].mp3";
-import audioFour from "../../../assets/audios/Riptide.mp3";
+import audioOne from "../../../assets/audios/Guga Nandes - Presentinho.mp3";
+import audioTwo from "../../../assets/audios/John Legend - All of Me.mp3";
+import audioThree from "../../../assets/audios/Eminem - Lose Yourself (Lyrics).mp3";
+import audioFour from "../../../assets/audios/A CARA DO CRIME NOS INCOMODA- MC poze do rodo VIDEO CLIPE (LETRA).mp3";
 
 import { Howl, Howler } from "howler";
 
