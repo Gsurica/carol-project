@@ -18,9 +18,10 @@ export const Moments = () => {
 
       <MomentComponent invert moment="Aquele dia, aquele maravilhoso dia..." momentText="E quem diria que o dia 12/03/2022 seria o nosso grande dia? No mesmo lugar onde tudo começou foi onde demos o primeiro passo para uma vida juntos, você fez uma surpresa tão linda e tão especial, que eu nem conseguia acreditar, achei que era brincadeira, o mês de março estava sendo bem turbulento para mim, mas você foi perfeito amor, foi o sábado mais feliz da minha vida! Obrigada por toda dedicação a nós, eu te amo demais e quero viver o resto da minha vida ao seu lado." />
 
-      <MomentComponent moment="momento 3" momentText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare venenatis justo, eu egestas lectus. Phasellus vel nibh erat. Nunc tempus dolor sit amet ante fermentum, non scelerisque massa scelerisque. Cras et rutrum enim. Nullam dignissim, tortor vel porttitor tristique, purus ante vehicula tortor, vitae tempor leo ligula ut leo. Nulla et libero placerat," />
-
-      <MomentComponent invert moment="momento 4" momentText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ornare venenatis justo, eu egestas lectus. Phasellus vel nibh erat. Nunc tempus dolor sit amet ante fermentum, non scelerisque massa scelerisque. Cras et rutrum enim. Nullam dignissim, tortor vel porttitor tristique, purus ante vehicula tortor, vitae tempor leo ligula ut leo. Nulla et libero placerat," /> 
+      <MomentComponent moment="O amor é algo vívido!" momentText="O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha.
+      Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor.
+      O amor não se alegra com a injustiça, mas se alegra com a verdade.
+      Tudo sofre, tudo crê, tudo espera, tudo suporta. 1 Coríntios 13:4-7" />
      </div>
      <div>
       <Footer />

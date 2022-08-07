@@ -10,10 +10,12 @@ export const MomentComponent = (props) => {
           { props.moment }
         </div>
       </div>
-        <div className="px-2 py-4 bg-[#FFB3C1] dark:bg-[#D0F4BA] dark:text-black sm:text-3xl shadow-lg">
-          <p>
-            { props.momentText }
-          </p>
+        <div className="md:w-full md:flex md:justify-end md:items-center">
+          <div className="px-2 py-4 bg-[#FFB3C1] dark:bg-[#D0F4BA] dark:text-black sm:text-3xl shadow-lg md:max-w-5xl">
+            <p>
+              { props.momentText }
+            </p>
+          </div>
         </div>
       </>
     )
@@ -26,7 +28,7 @@ export const MomentComponent = (props) => {
           { props.moment }
         </div>
       </div>
-      <div className="px-2 py-4 bg-red-100 sm:text-3xl dark:bg-[#D0F4BA] dark:text-black shadow-lg">
+      <div className="px-2 py-4 bg-red-100 sm:text-3xl dark:bg-[#D0F4BA] dark:text-black shadow-lg md:max-w-4xl md:flex md:justify-end">
         <p>
           { props.momentText }
         </p>

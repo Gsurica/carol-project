@@ -43,13 +43,13 @@ export const HowMuchLove = () => {
       <Header />
       <ThemeSwitcher />
       <div>
-        <div className="grid grid-cols-2 gap-4 mt-6 p-4 rounded-md">
-          <div className="flex items-center justify-center bg-rose-100 dark:bg-[#EAF8DA] px-2 py-4">
+        <div className="grid grid-cols-2 gap-4 mt-6 p-4 rounded-md md:flex md:justify-evenly">
+          <div className="flex items-center justify-center bg-rose-100 dark:bg-[#EAF8DA] px-2 py-4 md:max-w-lg">
             <div style={ cardImage }>
               <img src={ imageFive } style={ cardImageContent } alt="card image" />
             </div>
           </div>
-          <div className="flex items-center justify-center dark:bg-[#EAF8DA] bg-rose-100 px-2 py-4">
+          <div className="flex items-center justify-center dark:bg-[#EAF8DA] bg-rose-100 px-2 py-4 md:max-w-lg">
             <div style={ cardImage }>
               <img src={ imageSix } style={ cardImageContent } alt="card image" />
             </div>
@@ -61,18 +61,20 @@ export const HowMuchLove = () => {
         <div className="flex items-center justify-center px-2 py-4 bg-red-200 mt-6 dark:bg-[#BAF19C]">
           <h1 className="text-white font-bold tracking-tight sm:text-3xl dark:text-black">Ei Fábio! O quanto você ama a Carol!?</h1>
         </div>
-        <div>
-          <LoveNumber />
+        <div className="md:p-6">
+          <div>
+            <LoveNumber />
+          </div>
+          <div>
+            <HeartCounter />
+          </div>
+          <div>
+            <PresentLink />
+          </div>
         </div>
-        <div>
-          <HeartCounter />
-        </div>
-        <div>
-          <PresentLink />
-        </div>
-        <div>
-          <Footer />
-        </div>
+          <div>
+            <Footer />
+          </div>
       </div>
     </>
   )
